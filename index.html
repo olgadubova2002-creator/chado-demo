@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Чадо · центр развития детей в Туле</title>
+<meta name="description" content="Центр гармоничного развития детей «Чадо» в Туле: логопед, сурдопедагог, нейропсихолог, арт-терапия, музыка, диагностика. Два адреса, запись по телефону.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Чадо">
+<meta property="og:title" content="Чадо · центр развития детей в Туле">
+<meta property="og:image" content="assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="assets/og.jpg">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:description" content="Логопед, нейропсихолог, арт-терапия, музыка и диагностика для детей. Два адреса в Туле.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Onest:wght@600;800&display=swap">
+<link rel="stylesheet" href="vibe.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":["LocalBusiness","EducationalOrganization"],"name":"Центр гармоничного развития детей «Чадо»","description":"Логопедия, нейропсихология, АВА-терапия, дефектология, логоритмика, арт-терапия для детей.","telephone":"+79156856610","email":"dcchadotula@gmail.com","address":[{"@type":"PostalAddress","streetAddress":"Староникитская, 105а","addressLocality":"Тула","addressCountry":"RU"},{"@type":"PostalAddress","streetAddress":"Вильямса, 26","addressLocality":"Тула","addressCountry":"RU"}],"sameAs":["https://vk.ru/chadotula"]}
+</script>
+<style>
+  html, body { margin: 0; background: #f6f2fc; }
+
+  /* ---- тема: лавандовая палитра обложки ВК, чище и светлее ------------------- */
+  .v-page {
+    --v-canvas: #f6f2fc; --v-surface: #ffffff;
+    --v-ink: #2b2250; --v-ink-soft: #5e5680;            /* 6,3:1 на холсте */
+    --v-accent: #7c4dcc; --v-accent-ink: #ffffff;       /* кнопка 5,6:1 */
+    --v-accent-deep: #5b34a8;                           /* мелкий акцентный текст */
+    --v-font-display: "Onest", "Segoe UI", system-ui, sans-serif;
+    --v-font-text: "Manrope", "Segoe UI", system-ui, sans-serif;
+    --v-shadow-color: 62 40 120;
+    --v-e1: 0 1px 2px rgb(var(--v-shadow-color) / .08), 0 8px 22px rgb(var(--v-shadow-color) / .10);
+    --v-e2: 0 2px 6px rgb(var(--v-shadow-color) / .10), 0 22px 54px rgb(var(--v-shadow-color) / .16);
+    --v-radius: 20px;
+    --v-track-tight: -0.02em;
+    --c-pink: #f6c5dc; --c-sky: #cfe6f7; --c-sun: #ffe3a3;   /* декор: только фон, не текст */
+    --v-t-xs: clamp(0.8125rem, 0.79rem + 0.15vw, 0.85rem);
+    --v-t-sm: clamp(0.9375rem, 0.9rem + 0.2vw, 1rem);
+  }
+  @media (max-width: 860px) { .v-page { --v-t-xs: 0.9375rem; } }
+  .v-page .v-display { font-weight: 800; text-wrap: balance; }
+  .v-page p, .v-page li { text-wrap: pretty; }
+  .v-page .v-btn { font-size: var(--v-t-base); border-radius: 999px; }
+  .v-page .v-lede { color: var(--v-ink); }
+  .hl { color: var(--v-accent); }
+
+  /* ---- шапка ------------------------------------------------------------------ */
+  .bar { position: fixed; inset: 0 0 auto 0; z-index: 30; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: var(--v-6);
+    padding: var(--v-3) var(--v-gutter); background: rgb(246 242 252 / .88); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); border-bottom: 1px solid var(--v-hair); }
+  .bar__mark { font-family: var(--v-font-display); font-weight: 800; font-size: var(--v-t-lg); line-height: 1; text-decoration: none; display: inline-flex; align-items: center; gap: .5em; white-space: nowrap; color: var(--v-accent-deep); letter-spacing: .02em; }
+  .bar__mark svg { width: 1.4em; height: 1.4em; flex: none; }
+  .tabs { display: flex; gap: var(--v-5); justify-self: center; font-size: var(--v-t-sm); }
+  .tabs a { text-decoration: none; color: var(--v-ink-soft); padding: .35em 0; border-bottom: 2px solid transparent; transition: color .16s var(--v-ease-out), border-color .16s var(--v-ease-out); }
+  @media (hover: hover) and (pointer: fine) { .tabs a:hover { color: var(--v-ink); border-color: var(--v-accent); } }
+  .bar .v-btn { padding: .72em 1.25em; font-size: var(--v-t-sm); }
+  @media (max-width: 860px) {
+    .bar { grid-template-columns: auto auto; justify-content: space-between; gap: var(--v-3); }
+    .tabs { display: none; }
+    .bar .v-btn { padding: .65em 1em; }
+  }
+
+  /* ---- 1 · первый экран: небо, облака и шар из логотипа. Рисовано SVG, без фото детей ---- */
+  .sky { overflow: hidden; background: linear-gradient(180deg, #efe6fb 0%, #f6f2fc 55%, #fbeaf3 100%); }
+  .sky svg { position: absolute; display: block; }
+  .cl { fill: #fff; opacity: .9; }
+  .cl--a { left: 0; top: 62%; width: 46%; } .cl--b { right: 0; top: 14%; width: 38%; opacity: .75; } .cl--c { right: 6%; bottom: -6%; width: 52%; }
+  .balloon { right: 11%; top: 17%; width: clamp(15rem, 25vw, 26rem); filter: drop-shadow(0 22px 30px rgb(var(--v-shadow-color) / .22)); }
+  .hero__copy { max-width: min(44rem, 54vw); bottom: 0; top: 0; display: flex; flex-direction: column; justify-content: center; padding-top: 3rem; }
+  .hero__label { font-size: var(--v-t-sm); font-weight: 600; color: var(--v-accent-deep); margin-bottom: var(--v-4); }
+  .hero__copy h1 { font-size: clamp(2.3rem, 1rem + 2.7vw, 3.6rem); line-height: 1.02; }
+  .hero__copy .v-lede { margin-top: var(--v-5); max-width: 38ch; }
+  .ask { margin-top: var(--v-7); font-size: var(--v-t-sm); font-weight: 600; color: var(--v-ink-soft); }
+  /* плашки-самоопределение: родитель находит своё направление за секунду (приём Headspace/Babbel) */
+  .pills { display: flex; flex-wrap: wrap; gap: var(--v-2) var(--v-2); margin-top: var(--v-5); max-width: 36rem; }
+  .pills a { text-decoration: none; color: var(--v-ink); background: var(--v-surface); border-radius: 999px; padding: .7em 1.1em; font-size: var(--v-t-sm); font-weight: 600; box-shadow: var(--v-e1);
+    transition: transform .18s var(--v-ease-out), background-color .18s var(--v-ease-out), color .18s var(--v-ease-out); }
+  @media (hover: hover) and (pointer: fine) { .pills a:hover { background: var(--v-accent); color: var(--v-accent-ink); transform: translateY(-2px); } }
+  .pills a:focus-visible, .v-btn:focus-visible { outline: 3px solid var(--v-accent-deep); outline-offset: 3px; }
+  .hero__cta { margin-top: var(--v-6); display: flex; flex-wrap: wrap; align-items: center; gap: var(--v-3) var(--v-5); }
+  .hero__hint { font-size: var(--v-t-sm); color: var(--v-ink-soft); }
+  .hero__turn { max-width: min(36rem, 46vw); bottom: 0; top: 0; display: flex; flex-direction: column; justify-content: center; padding-top: 3.5rem; }
+  .hero__turn h2 { font-size: clamp(2rem, .9rem + 2.6vw, 3.4rem); line-height: 1.04; }
+  .hero__turn p { margin-top: var(--v-5); max-width: 38ch; }
+  @media (max-width: 860px) {
+    .balloon { right: 2%; top: auto; bottom: 3%; width: 14rem; }
+    .cl--a { top: 72%; } .cl--c { display: none; }
+    .hero__copy, .hero__turn { left: var(--v-gutter); right: var(--v-gutter); top: 4.4rem; bottom: auto; display: block; padding-top: 0; max-width: none; }
+    .hero__copy h1 { font-size: clamp(1.75rem, 1.1rem + 2.8vw, 2.3rem); }
+    .hero__copy .v-lede { font-size: var(--v-t-base); margin-top: var(--v-3); }
+    .ask { margin-top: var(--v-4); }
+    .hero__cta { margin-top: var(--v-4); flex-direction: column; align-items: flex-start; gap: var(--v-3); }
+    .hero__turn h2 { font-size: clamp(1.7rem, 1.1rem + 2.6vw, 2.3rem); }
+    .hero__turn p { margin-top: var(--v-4); }
+  }
+  @media (min-width: 861px) and (max-height: 760px) {
+    .hero__copy h1 { font-size: clamp(2rem, .9rem + 2.4vw, 3rem); }
+    .hero__copy .v-lede { margin-top: var(--v-4); font-size: var(--v-t-base); }
+    .ask { margin-top: var(--v-4); }
+  }
+
+  /* ---- 2 · направления: строки с линиями ---------------------------------------- */
+  .dir { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: var(--v-8) var(--v-9); align-items: start; }
+  .dir__head .v-label { display: block; margin-bottom: var(--v-5); }
+  .dir__head p { margin-top: var(--v-5); color: var(--v-ink-soft); max-width: 34ch; text-wrap: pretty; }
+  .rows li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: var(--v-1) var(--v-6); align-items: baseline; padding: var(--v-5) 0; border-top: 1px solid var(--v-hair); scroll-margin-top: 6rem; }
+  .rows li:last-child { border-bottom: 1px solid var(--v-hair); }
+  .rows h3 { font-family: var(--v-font-display); font-weight: 800; font-size: var(--v-t-lg); line-height: 1.2; }
+  .rows p { grid-column: 1; color: var(--v-ink-soft); font-size: var(--v-t-sm); max-width: 46ch; text-wrap: pretty; }
+  .rows .price { grid-row: 1; grid-column: 2; font-family: var(--v-font-display); font-weight: 800; font-size: var(--v-t-lg); color: var(--v-accent-deep); white-space: nowrap; text-align: right; }
+  .rows .price--ask { font-weight: 600; font-size: var(--v-t-sm); color: var(--v-ink-soft); }
+  .rows li:target h3 { color: var(--v-accent-deep); }
+  @media (max-width: 860px) { .dir { grid-template-columns: 1fr; gap: var(--v-6); } }
+
+  .catalog .grp { font-family: var(--v-font-display); font-weight: 800; font-size: var(--v-t-xl); line-height: 1.1; margin: var(--v-8) 0 var(--v-4); color: var(--v-accent-deep); scroll-margin-top: 6rem; }
+  .catalog .rows h4 { font-family: var(--v-font-display); font-weight: 800; font-size: var(--v-t-lg); line-height: 1.2; }
+  .catalog .rows p a { color: var(--v-accent-deep); }
+  .rows .price small { font-family: var(--v-font-text); font-weight: 600; font-size: var(--v-t-xs); color: var(--v-ink-soft); }
+  .intens { background: var(--v-surface); border-radius: var(--v-radius); padding: var(--v-6); box-shadow: var(--v-e1); scroll-margin-top: 6rem; }
+  .intens h3 { font-family: var(--v-font-display); font-weight: 800; font-size: var(--v-t-xl); line-height: 1.12; margin: var(--v-2) 0 var(--v-3); }
+  .intens p { color: var(--v-ink-soft); max-width: 52ch; }
+  .intens__tag { font-size: var(--v-t-xs); font-weight: 600; color: var(--v-accent-deep) !important; }
+  .intens .intens__price { margin-top: var(--v-4); font-family: var(--v-font-display); font-weight: 800; font-size: var(--v-t-xl); color: var(--v-ink); }
+
+  /* ---- выпадающие описания услуг: details, одно открыто за раз (name="svc") ---- */
+  .catalog .rows > li { display: block; padding: 0; scroll-margin-top: 6rem; }
+  .catalog summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: minmax(0, 1fr) auto 1.6rem; gap: var(--v-4); align-items: center; padding: var(--v-5) 0; min-height: 3rem; }
+  .catalog summary::-webkit-details-marker { display: none; }
+  .sum__t b { display: block; font-family: var(--v-font-display); font-weight: 800; font-size: var(--v-t-lg); line-height: 1.2; }
+  .sum__t small { display: block; margin-top: .2em; color: var(--v-ink-soft); font-size: var(--v-t-sm); }
+  .catalog summary .price { grid-row: auto; grid-column: auto; }
+  .chev { width: 1.6rem; height: 1.6rem; border-radius: 50%; background: color-mix(in oklab, var(--v-accent) 14%, transparent); position: relative; transition: transform .25s var(--v-ease-out), background-color .2s; }
+  .chev::before { content: ""; position: absolute; left: 50%; top: 50%; width: .5rem; height: .5rem; border-right: 2px solid var(--v-accent-deep); border-bottom: 2px solid var(--v-accent-deep); transform: translate(-50%, -70%) rotate(45deg); }
+  details[open] > summary .chev { transform: rotate(180deg); background: var(--v-accent); }
+  details[open] > summary .chev::before { border-color: var(--v-accent-ink); }
+  @media (hover: hover) and (pointer: fine) { .catalog summary:hover .sum__t b { color: var(--v-accent-deep); } }
+  .catalog summary:focus-visible { outline: 3px solid var(--v-accent); outline-offset: 2px; border-radius: 8px; }
+  .desc { padding: 0 0 var(--v-5); max-width: 58ch; }
+  .desc ul { display: grid; gap: var(--v-2); }
+  .catalog .desc ul li { display: block; border: 0; position: relative; padding: 0 0 0 1.3em; font-size: var(--v-t-sm); color: var(--v-ink); text-wrap: pretty; }
+  .desc ul li::before { content: ""; position: absolute; left: 0; top: .6em; width: .55em; height: .55em; border-radius: 50%; background: var(--c-pink); box-shadow: 0 0 0 2px color-mix(in oklab, var(--v-accent) 35%, transparent); }
+  .desc__note { margin-top: var(--v-3); color: var(--v-ink-soft); font-size: var(--v-t-sm); }
+  .desc__btns { margin-top: var(--v-4); display: flex; flex-wrap: wrap; gap: var(--v-3); }
+  .desc__btns .v-btn { padding: .7em 1.3em; font-size: var(--v-t-sm); }
+  .intens__facts { display: flex; flex-wrap: wrap; gap: var(--v-3) var(--v-6); margin: var(--v-4) 0; }
+  .intens__facts li { display: grid; }
+  .intens__facts b { font-family: var(--v-font-display); font-weight: 800; font-size: var(--v-t-lg); color: var(--v-accent-deep); }
+  .intens__facts span { font-size: var(--v-t-sm); color: var(--v-ink-soft); }
+  .intens__more summary { display: flex; justify-content: space-between; align-items: center; gap: var(--v-3); font-weight: 600; padding: var(--v-3) 0; border-top: 1px solid var(--v-hair); min-height: 3rem; }
+  .intens__more summary::after { content: "+"; font-size: 1.4em; color: var(--v-accent-deep); }
+  .intens__more[open] summary::after { content: "–"; }
+  .intens__row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--v-4); margin-top: var(--v-3); }
+  .intens .intens__row .intens__price { margin: 0; }
+  /* доверие и быстрый звонок на телефоне */
+  .trust { display: flex; flex-wrap: wrap; gap: var(--v-2); margin-top: var(--v-4); }
+  .trust span { font-size: var(--v-t-xs); font-weight: 600; color: var(--v-accent-deep); background: color-mix(in oklab, var(--v-accent) 10%, var(--v-surface)); border-radius: 999px; padding: .4em .9em; }
+  .callbar { display: none; }
+  @media (max-width: 860px) {
+    .callbar { position: fixed; z-index: 40; left: 0; right: 0; bottom: 0; display: grid; grid-template-columns: 1fr 1fr; gap: var(--v-2); padding: var(--v-2) var(--v-gutter) calc(var(--v-2) + env(safe-area-inset-bottom)); background: rgb(246 242 252 / .94); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); border-top: 1px solid var(--v-hair); }
+    .callbar .v-btn { padding: .75em 1em; text-align: center; font-size: var(--v-t-sm); }
+    .bar .v-btn { display: none; }
+    .bar { grid-template-columns: auto; }
+  }
+
+
+  /* ---- картинки (префикс .v-page: движок задаёт .v-page img { height: auto }) ---- */
+  .v-page .sky__img { position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; object-fit: cover; object-position: 75% 50%; }
+  @media (max-width: 860px) {
+    .v-page .sky__img { inset: auto 0 0 0; height: 36%; object-position: 80% 55%; -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 40%); mask-image: linear-gradient(to bottom, transparent 0, #000 40%); }
+  }
+  .catalog .grp { display: flex; align-items: center; gap: var(--v-4); }
+  .v-page .grp__img { width: 4.5rem; height: 3.4rem; border-radius: var(--v-radius); object-fit: cover; flex: none; box-shadow: var(--v-e1); }
+  .intens { position: relative; overflow: hidden; }
+  .intens > *:not(.intens__img) { position: relative; z-index: 1; }
+  .intens > p, .intens > h3, .intens__facts, .intens__more { max-width: 54%; }
+  .v-page .intens__img { position: absolute; right: 0; top: 0; bottom: 0; width: 46%; height: 100%; max-width: none; object-fit: cover; object-position: 88% 50%; -webkit-mask-image: linear-gradient(to right, transparent 0, #000 35%); mask-image: linear-gradient(to right, transparent 0, #000 35%); }
+  @media (max-width: 860px) {
+    .intens > p, .intens > h3, .intens__facts, .intens__more { max-width: none; }
+    .v-page .intens__img { position: relative; width: calc(100% + 2 * var(--v-6)); margin: calc(-1 * var(--v-6)) calc(-1 * var(--v-6)) var(--v-4); height: 9rem; -webkit-mask-image: none; mask-image: none; }
+    .v-page .grp__img { width: 3.6rem; height: 2.8rem; }
+  }
+  .person__ph--img { position: relative; overflow: hidden; background: var(--c-sky); aspect-ratio: 4 / 3; }
+  .v-page .person__ph--img img { position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; object-fit: cover; object-position: 50% 30%; }
+  .person__ph--img em { position: absolute; left: var(--v-2); bottom: var(--v-2); font-style: normal; font-size: var(--v-t-xs); background: rgb(255 255 255 / .9); color: var(--v-accent-deep); border-radius: 999px; padding: .25em .8em; }
+  .v-page .fin__img { width: 100%; height: 11rem; object-fit: cover; border-radius: var(--v-radius); box-shadow: var(--v-e1); }
+  @media (max-height: 820px) and (min-width: 861px) { .v-page .fin__img { height: 7rem; } }
+  @media (max-width: 860px) { .v-page .fin__img { height: 8rem; } }
+
+  /* ---- слоты под данные клиента: специалисты, отзывы, часы. Пунктир = «заполнить» ---- */
+  .slot { border: 2px dashed color-mix(in oklab, var(--v-accent) 55%, transparent); border-radius: var(--v-radius); background: color-mix(in oklab, var(--v-accent) 6%, var(--v-surface)); }
+  .slot-note { font-size: var(--v-t-sm); color: var(--v-accent-deep); font-weight: 600; }
+  .sect-head .v-label { display: block; margin-bottom: var(--v-4); }
+  .sect-head { margin-bottom: var(--v-7); max-width: 40rem; }
+  .sect-head p { margin-top: var(--v-4); color: var(--v-ink-soft); }
+  .team { display: grid; grid-template-columns: 1.3fr 1fr 1fr; gap: var(--v-5); }
+  .person { padding: var(--v-5); display: grid; gap: var(--v-2); align-content: start; }
+  .person__ph { aspect-ratio: 4 / 3; border-radius: var(--v-radius); background: var(--c-sky); display: grid; place-items: center; color: var(--v-accent-deep); font-size: var(--v-t-sm); font-weight: 600; margin-bottom: var(--v-3); }
+  .person b { font-family: var(--v-font-display); font-weight: 800; font-size: var(--v-t-lg); }
+  .person span { color: var(--v-ink-soft); font-size: var(--v-t-sm); }
+  .rate { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--v-2) var(--v-4); margin-top: var(--v-4); }
+  .rate b { font-family: var(--v-font-display); font-weight: 800; font-size: var(--v-t-xl); }
+  .rate span { color: var(--v-ink-soft); font-size: var(--v-t-sm); }
+  .revs { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: var(--v-5); }
+  .rev { padding: var(--v-5); display: grid; gap: var(--v-3); align-content: start; }
+  .rev p { font-size: var(--v-t-base); }
+  .rev span { color: var(--v-ink-soft); font-size: var(--v-t-sm); }
+  @media (max-width: 860px) { .team, .revs { grid-template-columns: 1fr; } }
+
+  /* ---- 3 · путь родителя: шар поднимается по скроллу (фирменный ход, только CSS) ---- */
+  .way { height: 100%; display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: var(--v-8); align-items: center; padding: 5rem var(--v-gutter) 2rem; }
+  .way__copy .v-label { display: block; margin-bottom: var(--v-5); }
+  .way__copy h2 { font-size: clamp(1.9rem, .9rem + 2.4vw, 3.2rem); line-height: 1.04; }
+  .steps { margin-top: var(--v-6); display: grid; max-width: 34rem; }
+  .steps li { --on: calc(clamp(0, (var(--v-p, 0) - var(--a)) * 40, 1) - clamp(0, (var(--v-p, 0) - var(--b)) * 40, 1));
+    display: grid; grid-template-columns: 2.4rem 1fr; gap: var(--v-3); align-items: baseline; padding: var(--v-4) 0; border-top: 1px solid var(--v-hair); font-size: var(--v-t-base); }
+  .steps li:last-child { border-bottom: 1px solid var(--v-hair); }
+  .steps li small { font-family: var(--v-font-display); font-weight: 800; color: var(--v-accent-deep); font-size: var(--v-t-lg); }
+  .steps li span { color: var(--v-ink); }
+  .steps li span b { opacity: calc(.72 + .28 * var(--on)); }
+  .steps li span b { font-weight: 600; display: block; }
+  .steps li span i { font-style: normal; color: var(--v-ink-soft); font-size: var(--v-t-sm); }
+  .flight { position: relative; height: min(70svh, 32rem); border-radius: var(--v-radius); overflow: hidden; background: linear-gradient(180deg, #e3d4f7 0%, #f4e9f8 60%, #fbeaf3 100%); box-shadow: var(--v-e2); }
+  .flight svg { position: absolute; display: block; }
+  .flight .cl { opacity: .85; }
+  .flight__b { left: 50%; width: 36%; margin-left: -18%; top: 0;
+    transform: translateY(calc((1 - var(--v-p, 0)) * 135%)); filter: drop-shadow(0 18px 24px rgb(var(--v-shadow-color) / .2)); }
+  .flight__c1 { left: 6%; top: 30%; width: 38%; transform: translateY(calc(var(--v-p, 0) * 60%)); }
+  .flight__c2 { right: 4%; top: 58%; width: 42%; transform: translateY(calc(var(--v-p, 0) * 90%)); }
+  @media (max-width: 860px) {
+    .way { grid-template-columns: 1fr; grid-template-rows: auto minmax(0, 1fr); gap: var(--v-4); padding: 5rem var(--v-gutter) 1.5rem; align-items: start; }
+    .way__copy h2 { font-size: clamp(1.5rem, 1rem + 2.6vw, 2rem); }
+    .steps { margin-top: var(--v-3); } .steps li { padding: var(--v-2) 0; }
+    .steps li span i { display: none; }
+    .flight { height: 100%; min-height: 11rem; }
+    .flight__b { width: 30%; margin-left: -15%; }
+  }
+  @media (prefers-reduced-motion: reduce) { .flight__b { transform: translateY(20%); } }
+
+  /* ---- 4 · адреса и запись: финал держит реплику, футер в сцене -------------------- */
+  .fin { height: 100%; display: grid; grid-template-rows: 1fr auto; padding: 0 var(--v-gutter); }
+  .fin__inner { align-self: center; display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: var(--v-8); align-items: end; padding-top: var(--v-9); }
+  .fin__inner h2 { font-size: clamp(2.1rem, 1rem + 3vw, 4rem); line-height: 1; }
+  .fin__inner p { margin-top: var(--v-5); color: var(--v-ink-soft); max-width: 40ch; text-wrap: pretty; }
+  .fin__btns { margin-top: var(--v-6); display: flex; flex-wrap: wrap; gap: var(--v-3); }
+  .fin__meta { display: grid; gap: var(--v-3); color: var(--v-ink-soft); font-size: var(--v-t-sm); }
+  .fin__tel { font-family: var(--v-font-display); font-weight: 800; font-size: var(--v-t-xl); text-decoration: none; color: var(--v-accent-deep); display: inline-block; padding-block: .3em; }
+  .fin__meta b { color: var(--v-ink); font-weight: 600; }
+  .fin__meta a:not(.fin__tel) { color: var(--v-ink); display: inline-block; padding-block: .25em; }
+  .foot { display: flex; justify-content: space-between; gap: var(--v-4); flex-wrap: wrap; padding: var(--v-6) 0; border-top: 1px solid var(--v-hair); font-size: var(--v-t-xs); color: var(--v-ink-soft); }
+  @media (max-width: 860px) {
+    .fin__inner { grid-template-columns: 1fr; gap: var(--v-6); padding-top: var(--v-8); }
+    .fin__inner h2 { font-size: clamp(1.8rem, 1.2rem + 3vw, 2.4rem); }
+    .fin__tel { font-size: var(--v-t-lg); }
+    .foot span:last-child { display: none; }
+  }
+</style>
+</head>
+<body>
+<div class="v-page">
+  <span data-v-progress></span>
+
+  <!-- шар из логотипа группы, рисованный: один символ на всю страницу -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="balloon" viewBox="0 0 200 260">
+        <path d="M100 8C57 8 22 42 22 86c0 38 24 62 50 82l14 12h28l14-12c26-20 50-44 50-82C178 42 143 8 100 8z" fill="#c9b0f0"/>
+        <path d="M100 8c-24 0-40 38-40 80 0 34 14 62 30 92h20c16-30 30-58 30-92 0-42-16-80-40-80z" fill="#b08be6"/>
+        <path d="M100 8c-9 0-14 38-14 80 0 34 5 62 10 92h8c5-30 10-58 10-92 0-42-5-80-14-80z" fill="#f6c5dc"/>
+        <path d="M22 96c30 14 106 14 156 0" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+        <path d="M86 180l-12 36M114 180l12 36" stroke="#5e5680" stroke-width="3" stroke-linecap="round"/>
+        <rect x="72" y="214" width="56" height="34" rx="9" fill="#e9b97a"/>
+        <path d="M72 226h56" stroke="#fff" stroke-width="3" opacity=".7"/>
+      </symbol>
+      <symbol id="cloud" viewBox="0 0 300 110">
+        <path class="cl" d="M30 100c-20 0-30-12-30-26 0-15 11-26 27-27 3-22 21-37 44-37 15 0 28 7 36 18 7-7 17-11 27-11 19 0 34 13 37 31 5-3 11-5 18-5 22 0 38 16 38 36 0 14-8 21-20 21z"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <header class="bar">
+    <a class="bar__mark" href="#top"><svg viewBox="0 0 200 260" aria-hidden="true"><use href="#balloon"/></svg><span>ЧАДО</span></a>
+    <nav class="tabs" aria-label="Разделы">
+      <a href="#napravleniya">Направления</a>
+      <a href="#specialisty">Специалисты</a>
+      <a href="#put">Как записаться</a>
+      <a href="#otzyvy">Отзывы</a>
+      <a href="#zapis">Адреса</a>
+    </nav>
+    <a class="v-btn" href="tel:+79156856610">Записаться</a>
+  </header>
+
+  <div class="callbar"><a class="v-btn" href="tel:+79156856610">Записаться</a><a class="v-btn v-btn--ghost" href="https://vk.ru/chadotula" target="_blank" rel="noopener">Написать в ВК</a></div>
+
+  <main>
+
+    <!-- 1 · ПЕРВЫЙ ЭКРАН: небо с шаром, оффер по формуле «что + для кого + УТП»,
+         плашки направлений – родитель выбирает своё. Вторая реплика – про выбор направления -->
+    <section id="top" data-v-act="pin" data-v-span="1.7" aria-label="Центр развития детей «Чадо»">
+      <div data-v-stage>
+        <div class="v-fill sky" aria-hidden="true">
+          <img class="sky__img" src="assets/hero.webp" srcset="assets/hero-1200.webp 1200w, assets/hero.webp 1920w" sizes="100vw" alt="" width="1920" height="1072" fetchpriority="high">
+        </div>
+
+        <div class="v-copy v-copy--lead hero__copy" data-v-cue="0 0.5 0 0.1">
+          <p class="hero__label">Центр гармоничного развития детей · Тула</p>
+          <h1 class="v-display v-display--xl" data-v-kinetic="lines">Логопед и нейропсихолог для детей в Туле</h1>
+          <p class="v-lede">Два адреса в городе. Выберите направление и запишитесь по телефону.</p>
+          <div class="pills" data-v-rise="0">
+            <a href="#rech">Речь и слух</a>
+            <a href="#tvorchestvo">Творчество и музыка</a>
+            <a href="#povedenie">Поведение и быт</a>
+            <a href="#neiro">Диагностика</a>
+            <a href="#intensiv">Интенсив</a>
+          </div>
+          <div class="hero__cta">
+            <a class="v-btn" href="tel:+79156856610" data-v-magnet="0.2" data-v-rise="0">Записаться</a>
+            <p class="hero__hint">+7 (915) 685-66-10<br>★ 5,0 · 7 отзывов в ВК</p>
+          </div>
+        </div>
+
+        <div class="v-copy v-copy--lead hero__turn" data-v-cue="0.5 1 0.08 0">
+          <p class="hero__label">Не знаете, с чего начать?</p>
+          <h2 class="v-display">Позвоните: подскажем подходящее направление</h2>
+          <p class="v-lede">Центр работает с детьми всех возрастов: физическое, интеллектуальное, социальное и эмоциональное развитие.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2 · НАПРАВЛЕНИЯ: цены только те, что опубликованы в группе ВК -->
+    <section class="v-section v-section--tight" data-v-act="flow" id="napravleniya" aria-label="Направления и цены">
+      <div class="v-wrap dir">
+        <div class="dir__head" data-v-in data-v-stagger="60">
+          <h2 class="v-display v-display--md">Чем занимаемся с детьми</h2>
+          <p>Услуги и цены взяты из каталога группы ВКонтакте. Если цены нет, стоимость уточняйте у администратора.</p>
+        </div>
+        <div class="catalog" data-v-in data-v-stagger="50">
+          <div class="intens" id="intensiv">
+            <img class="intens__img" src="assets/intensiv.webp" alt="" width="1400" height="782" loading="lazy">
+            <p class="intens__tag">Для детей с ООП</p>
+            <h3>Интенсивный курс «Формула Успеха»</h3>
+            <p>Ускоренный старт: 2 недели погружения, по 2 часа развивающих занятий ежедневно, 4 специалиста каждый день.</p>
+            <ul class="intens__facts"><li><b>2 недели</b><span>погружения</span></li><li><b>2 часа</b><span>занятий в день</span></li><li><b>4 специалиста</b><span>каждый день</span></li></ul>
+            <details name="svc" class="intens__more"><summary>Что внутри курса</summary>
+              <div class="desc"><ul><li>Занятия на когнитивные способности, творческое мышление, коммуникативные навыки и физическую активность</li><li>Команда педагогов, психологов, логопедов и других профильных специалистов</li><li>Индивидуальный подход: каждый специалист смотрит на потребности именно вашего ребёнка</li></ul></div></details>
+            <div class="intens__row"><p class="intens__price">от 30 000 ₽</p><a class="v-btn" href="tel:+79156856610">Записаться</a></div>
+          </div>
+
+          <h3 class="grp" id="rech"><img class="grp__img" src="assets/cat-rech.webp" alt="" width="72" height="54" loading="lazy">Речь, слух, зрение</h3>
+          <ul class="rows">
+            <li id="logopediya"><details name="svc"><summary><span class="sum__t"><b>Логопедия: тейпирование</b><small>Постановка звуков и работа с артикуляцией</small></span><span class="price">от 800 ₽</span><i class="chev" aria-hidden="true"></i></summary>
+              <div class="desc"><ul><li>Коррекция звукопроизношения и постановка звуков</li><li>Улучшение иннервации и кровообращения органов артикуляционного аппарата</li><li>Помощь при гиперсаливации и проблемах с глотанием</li></ul>
+                <div class="desc__btns"><a class="v-btn" href="tel:+79156856610">Записаться</a></div></div></details></li>
+            <li><details name="svc"><summary><span class="sum__t"><b>Сурдопедагог</b><small>Для детей с нарушением слуха</small></span><span class="price">1 800 ₽ <small>/ час</small></span><i class="chev" aria-hidden="true"></i></summary>
+              <div class="desc"><ul><li>Диагностика нарушений слуха и логопедический статус ребёнка</li><li>Формирование устной речи: от тугоухости до полной глухоты</li><li>Адаптация к слуховому аппарату и помощь после кохлеарной имплантации</li><li>Развитие фонематического слуха, обучение дактильной азбуке и чтению по губам</li></ul><p class="desc__note">Центр поддерживает семью в целом: результат выше, когда дома есть развивающая среда.</p>
+                <div class="desc__btns"><a class="v-btn" href="tel:+79156856610">Записаться</a></div></div></details></li>
+            <li><details name="svc"><summary><span class="sum__t"><b>Тифлопедагог</b><small>Для незрячих и слабовидящих детей</small></span><span class="price">1 800 ₽</span><i class="chev" aria-hidden="true"></i></summary>
+              <div class="desc"><ul><li>Ориентирование в пространстве и бытовые навыки</li><li>Развитие зрительного восприятия при ослабленном зрении</li><li>Использование слуха и осязания для получения информации</li><li>Обучение родителей и подготовка к школе</li></ul>
+                <div class="desc__btns"><a class="v-btn" href="tel:+79156856610">Записаться</a></div></div></details></li>
+          </ul>
+
+          <h3 class="grp" id="tvorchestvo"><img class="grp__img" src="assets/cat-tvorchestvo.webp" alt="" width="72" height="54" loading="lazy">Творчество и музыка</h3>
+          <ul class="rows">
+            <li id="art"><details name="svc"><summary><span class="sum__t"><b>Арт-терапия</b><small>Выразить эмоции через творчество</small></span><span class="price">800–1 500 ₽</span><i class="chev" aria-hidden="true"></i></summary>
+              <div class="desc"><ul><li>Рисование, лепка, аппликации, работа с песком</li><li>Помогает выразить гнев, страх, тревогу и грусть</li><li>Снимает напряжение, повышает самооценку, развивает мелкую моторику</li><li>Особенно полезна детям, которым трудно адаптироваться к саду или школе, у кого страхи, замкнутость или агрессия</li></ul>
+                <div class="desc__btns"><a class="v-btn" href="tel:+79156856610">Записаться</a></div></div></details></li>
+            <li><details name="svc"><summary><span class="sum__t"><b>Музыкальная шкатулка</b><small>Музыка, ритм и речь</small></span><span class="price">1 500 ₽ <small>/ час</small></span><i class="chev" aria-hidden="true"></i></summary>
+              <div class="desc"><ul><li>Музыкальная терапия</li><li>Логоритмика: ритм и речь для дикции и фонематического слуха</li><li>Занятия музыкой: пение, простые инструменты, основы теории</li><li>Кубики Зайцева и карточки Домана для чтения и словарного запаса</li></ul>
+                <div class="desc__btns"><a class="v-btn" href="tel:+79156856610">Записаться</a></div></div></details></li>
+            <li><details name="svc"><summary><span class="sum__t"><b>НейроРисование</b><small>Групповое занятие, от 3 лет</small></span><span class="price">800 ₽</span><i class="chev" aria-hidden="true"></i></summary>
+              <div class="desc"><ul><li>Не традиционные художественные техники, а осмысление темы рисунка</li><li>Подвижные игры, сенсорные материалы и обсуждения</li><li>Нестандартные способы нанесения: ватные палочки, природные материалы</li><li>Развивает мышление, моторику и коммуникативные навыки</li></ul>
+                <div class="desc__btns"><a class="v-btn" href="tel:+79156856610">Записаться</a></div></div></details></li>
+            <li><details name="svc"><summary><span class="sum__t"><b>Эмоциональный интеллект</b><small>Программа «Мои эмоции – моя сила»</small></span><span class="price">от 800 ₽</span><i class="chev" aria-hidden="true"></i></summary>
+              <div class="desc"><ul><li>Группы для дошкольников и младших школьников, подростки индивидуально</li><li>Песочная терапия, арт-терапия, сюжетно-ролевые игры</li><li>Учим распознавать свои и чужие эмоции и безопасно их проявлять</li><li>Развиваем общение со сверстниками, самооценку и эмпатию</li></ul>
+                <div class="desc__btns"><a class="v-btn" href="tel:+79156856610">Записаться</a></div></div></details></li>
+            <li><details name="svc"><summary><span class="sum__t"><b>Театральная студия</b><small>Описание и стоимость уточняйте</small></span><span class="price price--ask">уточняйте</span><i class="chev" aria-hidden="true"></i></summary>
+              <div class="desc"><ul><li>Подробности и стоимость расскажет администратор по телефону</li></ul>
+                <div class="desc__btns"><a class="v-btn" href="tel:+79156856610">Записаться</a></div></div></details></li>
+          </ul>
+
+          <h3 class="grp" id="povedenie"><img class="grp__img" src="assets/cat-povedenie.webp" alt="" width="72" height="54" loading="lazy">Поведение и быт</h3>
+          <ul class="rows">
+            <li><details name="svc"><summary><span class="sum__t"><b>Пищевая избирательность</b><small>Помощь семьям детей с РАС</small></span><span class="price">от 1 700 ₽</span><i class="chev" aria-hidden="true"></i></summary>
+              <div class="desc"><ul><li>Индивидуальный план питания с учётом особенностей ребёнка</li><li>Постепенное введение новых продуктов рядом с любимыми</li><li>Позитивное подкрепление за попытки попробовать</li><li>Спокойная обстановка во время еды</li></ul>
+                <div class="desc__btns"><a class="v-btn" href="tel:+79156856610">Записаться</a></div></div></details></li>
+            <li><details name="svc"><summary><span class="sum__t"><b>Туалетный тренинг</b><small>Если ребёнок не идёт на горшок</small></span><span class="price">от 1 700 ₽ <small>/ час</small></span><i class="chev" aria-hidden="true"></i></summary>
+              <div class="desc"><ul><li>Разбираем причины: чувствительность из-за зубов, увлечённость игрой, индивидуальный темп, высокая активность</li><li>Работаем со страхами: неудачный первый опыт, дискомфорт, падения</li><li>Выстраиваем привычку без стресса для ребёнка и родителей</li></ul>
+                <div class="desc__btns"><a class="v-btn" href="tel:+79156856610">Записаться</a></div></div></details></li>
+          </ul>
+
+          <h3 class="grp" id="neiro"><img class="grp__img" src="assets/cat-diagnostika.webp" alt="" width="72" height="54" loading="lazy">Диагностика, психолог, школа</h3>
+          <ul class="rows">
+            <li><details name="svc"><summary><span class="sum__t"><b>Нейропсихолог: консультация</b><small>Перед встречей заполните анкету</small></span><span class="price price--ask">уточняйте</span><i class="chev" aria-hidden="true"></i></summary>
+              <div class="desc"><ul><li>Анкета экономит время консультации: не нужно повторять базовую информацию</li><li>Специалист заранее готовится к вашему случаю и планирует диагностику</li><li>Анализ ситуации получается точнее и персональнее</li></ul>
+                <div class="desc__btns"><a class="v-btn" href="tel:+79156856610">Записаться</a><a class="v-btn v-btn--ghost" href="https://forms.gle/6s5G1owVMDwegKUg8" target="_blank" rel="noopener">Заполнить анкету</a></div></div></details></li>
+            <li><details name="svc"><summary><span class="sum__t"><b>Тест Векслера (детский вариант)</b><small>Исследование интеллекта, 5–16 лет</small></span><span class="price">3 500 ₽</span><i class="chev" aria-hidden="true"></i></summary>
+              <div class="desc"><ul><li>11 субтестов: 6 вербальных и 5 невербальных</li><li>Оценивает общий интеллект, вербальный и невербальный</li><li>Показывает, какие стороны интеллектуальной деятельности развиты хуже</li></ul>
+                <div class="desc__btns"><a class="v-btn" href="tel:+79156856610">Записаться</a></div></div></details></li>
+            <li><details name="svc"><summary><span class="sum__t"><b>Цветные матрицы Равена</b><small>Скрининг невербального интеллекта, 5–9 лет</small></span><span class="price">2 500 ₽</span><i class="chev" aria-hidden="true"></i></summary>
+              <div class="desc"><ul><li>Три серии по 12 матриц, всего 36 заданий</li><li>Ребёнок находит закономерность и выбирает недостающую фигуру</li><li>Задания оформлены так, чтобы ребёнку было приятно и не утомительно</li></ul>
+                <div class="desc__btns"><a class="v-btn" href="tel:+79156856610">Записаться</a></div></div></details></li>
+            <li><details name="svc"><summary><span class="sum__t"><b>Семейный психолог</b><small>Отношения в семье</small></span><span class="price">от 3 000 ₽</span><i class="chev" aria-hidden="true"></i></summary>
+              <div class="desc"><ul><li>Конфликты детей и родителей, непонимание</li><li>Кризисы в отношениях супругов</li><li>Трудности ребёнка в общении со сверстниками</li><li>Цель: восстановить понимание и баланс в семье</li></ul>
+                <div class="desc__btns"><a class="v-btn" href="tel:+79156856610">Записаться</a></div></div></details></li>
+            <li><details name="svc"><summary><span class="sum__t"><b>Репетитор начальных классов</b><small>Чтение, математика, письмо</small></span><span class="price">1 100 ₽</span><i class="chev" aria-hidden="true"></i></summary>
+              <div class="desc"><ul><li>Индивидуальный подход и темп ребёнка</li><li>Закрываем пробелы и укрепляем сильные стороны</li><li>Ребёнок перестаёт бояться ошибок и верит в свои силы</li><li>Родитель лучше понимает прогресс</li></ul>
+                <div class="desc__btns"><a class="v-btn" href="tel:+79156856610">Записаться</a></div></div></details></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2б · СПЕЦИАЛИСТЫ: слоты, данных в ВК нет -->
+    <section class="v-section v-section--tight" data-v-act="flow" data-v-drift="#f3edfb" id="specialisty" aria-label="Специалисты">
+      <div class="v-wrap">
+        <div class="sect-head" data-v-in>
+          <h2 class="v-display v-display--md">Кто занимается с детьми</h2>
+          <p class="slot-note">Слот для данных центра: имена, должности и опыт подставляются дословно от центра.</p>
+        </div>
+        <div class="team" data-v-in data-v-stagger="70">
+          <article class="person slot"><div class="person__ph person__ph--img"><img src="assets/specialist-1.webp" alt="Иллюстрация-заглушка: специалист за рабочим столом" width="900" height="1205" loading="lazy"><em>заглушка: заменить фото специалиста</em></div><b>{{имя специалиста 1}}</b><span>{{должность 1}}</span><span>{{образование и опыт 1}}</span></article>
+          <article class="person slot"><div class="person__ph">{{фото специалиста 2}}</div><b>{{имя специалиста 2}}</b><span>{{должность 2}}</span><span>{{образование и опыт 2}}</span></article>
+          <article class="person slot"><div class="person__ph">{{фото специалиста 3}}</div><b>{{имя специалиста 3}}</b><span>{{должность 3}}</span><span>{{образование и опыт 3}}</span></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 · КАК ЗАПИСАТЬСЯ: шар поднимается по скроллу (фирменный ход, CSS от --v-p) -->
+    <section data-v-act="pin" data-v-span="2.2" data-v-drift="#f3edfb" id="put" aria-label="Как записаться">
+      <div data-v-stage>
+        <div class="way">
+          <div class="way__copy" data-v-cue="0 1 0 0" data-v-rise="0">
+            <h2 class="v-display">Три шага до первого занятия</h2>
+            <ol class="steps" aria-label="Шаги">
+              <li style="--a: .05; --b: .38"><small>1</small><span><b>Звоните или пишете</b><i>+7 (915) 685-66-10 или сообщение в группе ВКонтакте.</i></span></li>
+              <li style="--a: .38; --b: .70"><small>2</small><span><b>Выбираете направление и время</b><i>Администратор поможет определиться.</i></span></li>
+              <li style="--a: .70; --b: 1.2"><small>3</small><span><b>Приходите по одному из адресов</b><i>Староникитская 105а или Вильямса 26.</i></span></li>
+            </ol>
+          </div>
+          <div class="flight" aria-hidden="true">
+            <svg class="flight__c1" viewBox="0 0 300 110"><use href="#cloud"/></svg>
+            <svg class="flight__c2" viewBox="0 0 300 110"><use href="#cloud"/></svg>
+            <svg class="flight__b" viewBox="0 0 200 260"><use href="#balloon"/></svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3б · ОТЗЫВЫ: рейтинг из ВК настоящий, тексты отзывов слотами -->
+    <section class="v-section v-section--tight" data-v-act="flow" id="otzyvy" aria-label="Отзывы">
+      <div class="v-wrap">
+        <div class="sect-head" data-v-in>
+          <h2 class="v-display v-display--md">Что говорят родители</h2>
+          <div class="rate"><b>5,0</b><span>7 отзывов в группе ВКонтакте</span></div>
+          <p class="slot-note">Слоты: вставить три отзыва дословно с согласия авторов.</p>
+        </div>
+        <div class="revs" data-v-in data-v-stagger="80">
+          <figure class="rev slot"><p>«{{отзыв 1}}»</p><span><b>{{имя 1}}</b> · {{дата 1}}</span></figure>
+          <figure class="rev slot"><p>«{{отзыв 2}}»</p><span><b>{{имя 2}}</b> · {{дата 2}}</span></figure>
+          <figure class="rev slot"><p>«{{отзыв 3}}»</p><span><b>{{имя 3}}</b> · {{дата 3}}</span></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 · АДРЕСА И ЗАПИСЬ: финал держит реплику, футер внутри сцены -->
+    <section data-v-act="pin" data-v-span="1.4" id="zapis" aria-label="Адреса и контакты">
+      <div data-v-stage>
+        <div class="fin">
+          <div class="fin__inner">
+            <div data-v-cue="0.04">
+              <h2 class="v-display">Запишитесь на первое занятие</h2>
+              <p>Позвоните администратору или напишите в группу ВКонтакте: подскажем направление и подберём время.</p>
+              <div class="fin__btns">
+                <a class="v-btn" href="tel:+79156856610">Записаться</a>
+                <a class="v-btn v-btn--ghost" href="https://vk.ru/chadotula" target="_blank" rel="noopener">Написать в ВК</a>
+              </div>
+            </div>
+            <div class="fin__meta" data-v-cue="0.1">
+              <img class="fin__img" src="assets/centr.webp" alt="Иллюстрация: светлый детский класс с игрушками" width="1200" height="670" loading="lazy">
+              <a class="fin__tel" href="tel:+79156856610">+7 (915) 685-66-10</a>
+              <span><b>Адрес 1:</b> Тула, Староникитская, 105а</span>
+              <span><b>Адрес 2:</b> Тула, Вильямса, 26</span>
+              <span><b>Часы работы:</b> <span class="slot-note">{{часы работы}}</span></span>
+              <a href="mailto:dcchadotula@gmail.com">dcchadotula@gmail.com</a>
+            </div>
+          </div>
+          <footer class="foot">
+            <span>Демо-версия сайта: не является официальным сайтом центра «Чадо»</span>
+            <span>Данные из группы vk.ru/chadotula</span>
+          </footer>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script src="vibe.js"></script>
+<script>
+  if (window.matchMedia('(max-width: 860px)').matches) {
+    document.getElementById('top').setAttribute('data-v-span', '1.6');
+    document.getElementById('put').setAttribute('data-v-span', '2.1');
+    document.getElementById('zapis').setAttribute('data-v-span', '1.3');
+  }
+  Vibe.mount(document.querySelector('.v-page'));
+</script>
+</body>
+</html>
